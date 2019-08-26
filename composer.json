@@ -1,0 +1,22 @@
+{
+    "name": "elmanth/yii2-togel",
+    "description": "this extend of extension pheme/yii2-toggle-column so we can change the color button",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","toggle","switch"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukman Thalib",
+            "email": "elmanth@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "pheme/yii2-toggle-column": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "elmanth\\togel\\": ""
+        }
+    }
+}
