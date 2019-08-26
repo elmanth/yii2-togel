@@ -1,6 +1,6 @@
 Toggle On-Off
 =============
-this extend of extension pheme/yii2-toggle-column so we can change the color button
+this extend class of extension [pheme/yii2-toggle-column](https://github.com/phemellc/yii2-toggle-column) so we can change the color button. Please refer [pheme/yii2-toggle-column](https://github.com/phemellc/yii2-toggle-column) to more usage
 
 Installation
 ------------
@@ -25,7 +25,17 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, use this class to your column :
 
 ```php
-<?= \elmanth\togel\AutoloadExample::widget(); ?>```
+[
+    'class' => '\elmanth\togel\Togel',
+    'action' => 'toggleArchive',
+    
+    'colorOn' => '#289AFC',
+    'colorOff' => '#F89406',
+    
+    'attribute' => 'archive',
+    'filter' => [1 => 'Ya', 0 => 'Tidak']
+],
+```
